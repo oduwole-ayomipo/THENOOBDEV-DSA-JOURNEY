@@ -19,7 +19,7 @@ Follow my logbook as I mark the islands conquered, monsters defeated, and legend
 
 ### Data Structures
 
-**[x]** 1. **Island of Arrays:**
+**[ ]** 1. **Island of Arrays:**
    - Basic operations (insertion, deletion, traversal).
    - Dynamic arrays.
    - Multi-dimensional arrays.
