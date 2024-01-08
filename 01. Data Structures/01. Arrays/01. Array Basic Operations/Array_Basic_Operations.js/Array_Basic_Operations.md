@@ -6,7 +6,7 @@ In JavaScript,
 
     - An array can contain different data type ranging from strings, number, and even another array itself.
 
-    - Array variables, we can store several pieces of data in one place.
+    - using array variables, we can store several pieces of data in one place.
 
 ```js
 const rice = ["white rice", "jollof rice", "ofada rice"];
