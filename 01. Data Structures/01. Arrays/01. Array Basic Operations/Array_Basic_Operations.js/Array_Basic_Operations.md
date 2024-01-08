@@ -103,5 +103,3 @@ myArray.shift();
 
 // Removes the first element (1 in this case)
 ```
-
-#### That's all for now, next we are going to look at traversals and solve some hackerrank challenges under arrays!
