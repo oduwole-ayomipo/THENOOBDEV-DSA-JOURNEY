@@ -196,18 +196,23 @@ console.log("At least one element greater than 10:", hasGreaterThan10);
 
 ## Looping in JavaScript - Comparison Table
 
-| Loop Type    | Use Case                                            | Advantages                                | Considerations               |
-| ------------ | --------------------------------------------------- | ----------------------------------------- | ---------------------------- |
-| **For Loop** | - When you need precise control over the loop index | - Explicit control over loop variables    | - Syntax is more verbose     |
-|              | - When the number of iterations is known in advance | - Efficient for simple incrementing loops | - Prone to off-by-one errors |
-
-| **forEach Method** | - When you want to perform an operation for each array element | - Concise syntax | - Cannot break out of the loop |
-|                | - When you don't need an index variable | - Automatically handles array iteration | - Cannot skip or terminate iterations early |
-
-| **Map Method** | - When you need to transform each element and create a new array | - Returns a new array with transformed elements | - Overhead for creating a new array |
-|                | - When you want to avoid mutating the original array | - Clean and functional approach to transformation | - Use when a new array is necessary |
-
-| **Other Methods** | - **filter:** When you want to create a new array based on a condition | - Easily filter elements based on a condition | - Similar to `forEach` in terms of limitations |
-|               | - **reduce:** When you want to accumulate values into a single result | - Powerful for aggregating array values | - Requires a clear understanding of accumulator |
-|                | - **some:** When you want to check if at least one element meets a condition | - Stops iteration when condition is met | - Doesn't guarantee iteration order |
+| Loop Type    | Use Case                                            | Advantages                                | Considerations              |
+| ------------ | --------------------------------------------------- | ----------------------------------------- | --------------------------- |
+| **For Loop** | - When you need precise control over the loop index | - Explicit control over loop variables    | - Syntax is more verbose    |
+|              | - When the number of iterations is known in advance | - Efficient for simple incrementing loops | - Prone to off-by-one errors|
+| ------------ | --------------------------------------------------- | ----------------------------------------- | --------------------------- |
+| **forEach**  | - When you want to perform an operation for each    | - Concise syntax                          | - Cannot break out of the   | | **Method**   |  each array element                                 |                                           |   loop                      |
+|              | - When you don't need an index variable             | - Automatically handles array iteration   | - Cannot skip or terminate  | |              |                                                     |                                           |   iterations early          |
+| ------------ | --------------------------------------------------- | ----------------------------------------- | --------------------------- |
+| **Map**      | - When you need to transform each element and       | - Returns a new array with transformed    | - Overhead for creating a   |
+| **Method**   |   create a new array                                |   elements                                |   new array                 | 
+|              | - When you want to avoid mutating the original      | - Clean and functional approach to        | - Use when a new array is   | |              |   array                                             |   transformation                          |   necessary                 |
+| ------------ | --------------------------------------------------- | ----------------------------------------- | --------------------------- |
+| **Other**    | - **filter:** When you want to create a new array   |  - Easily filter elements based on a      | - Similar to `forEach` in   |
+!  **Methods** |   based on a condition                              |    a condition                            | terms of limitations        |
+|              | --------------------------------------------------- | ----------------------------------------- | --------------------------- | |              | - **reduce:** When you want to accumulate values    | - Powerful for aggregating array values   | - Requires a clear          |
+|              |   into a single result                              |                                           |   understanding of          | |              |                                                     |                                           |   accumulator               |
+|              | --------------------------------------------------- | ----------------------------------------- | --------------------------- | 
+|              | - **some:** When you want to check if at least      | - Stops iteration when condition is met   | - Doesn't guarantee         | |              |   one element meets a condition                     |                                           |   iteration order           |
+|              | --------------------------------------------------- | ----------------------------------------- | --------------------------- | 
 
